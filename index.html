@@ -10,13 +10,13 @@
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive resume cv</title>
+        <title>Dao Anh Tuan</title>
     </head>
-    <body>
+    <body >
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="#" class="nav__logo">Dao</a>
+                <a href="#" class="nav__logo">ANHTUANDAO</a>
                 <div class="nav__menu"id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
@@ -79,7 +79,7 @@
                     <section class="home" id="home">
                         <div class="home__container section bd-grid">
                             <div class="home__data bd-grid">
-                                <img src="assets/img/anhcanhan.JPG" alt="" class="home__img">
+                                <img src="assets/img/anhcanhan3.jpg" alt="" class="home__img">
 
                                 <h1 class="home__title">ANH TUAN</h1>
                                 <h3 class="home__profession">Software Engineer</h3>
@@ -102,10 +102,10 @@
                             </div>
                         </div>
                         <!-- Theme change button -->
-                        
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
     
                         <!-- Button to generate and download the pdf. Available for desktop. -->
-                        
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
 
                     </section>          
                     
@@ -163,19 +163,25 @@
                         </div>
                     </section>
 
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
 
-                    <!--========== SKILLS  ==========-->
-                    <section class="skills section" id="skills">
-                        <h2 class="section-title">Skills</h2>
-                        <div class="skills__content bd-grid">
-                            <ul class="skills__data">
-                                <li class="skills_name">
-
-                                </li>
-                            </ul>
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class="bx bx-headphone interests__icon"></i>
+                                <span class="interest__name">Music</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bx-movie interests__icon"></i>
+                            <span class="interest__name ">Movies</span>
+                            </div>
+                            <div class="interests__content">
+                                <i class="bx bx-dumbbell interests__icon"></i>
+                                <span class="interest__name">Fitness</span>
+                            </div>
                         </div>
                     </section>
-
                 </div>
 
                 <div class="resume__right">
@@ -192,7 +198,7 @@
                                 <div class="experience__data bd-grid">
                                     <h3 class="experience__title">ACTIVE LEARNER</h3>
                                     <span class="experience__company">2020 - 2021 &nbsp;|&nbsp; <a href="https://bigocoding.com/" target="_blank" class="experience__a">Big-O Coding</a></span>
-                                    <p class="experience__description">Being a code learner at Big-O Coding school has helped me a lot with my code foundation. At this shool I learned a lot about data structures and algorithms. I was also taught of professional approaches to modern problems and the correct way to learn and advance in my career.</p>
+                                    <p class="experience__description">Being a code learner at Big-O Coding school has helped me a lot with my code foundation. At this shool I learned a lot about data structures and algorithms and the correct way to learn and advance in my career.</p>
                                 </div>
                                     
                             </div>
@@ -206,7 +212,7 @@
                                 <div class="experience__data bd-grid">
                                     <h3 class="experience__title"><a href="https://github.com/anhtuandao1311/PortfolioWeb"class="experience__a" target="_blank">PORTFOLIO WEBSITE</a> </h3>
                                     <span class="experience__company">May - June 2021 &nbsp;|&nbsp; Personal Project</span>
-                                    <p class="experience__description">A modern portfolio website I built using 3 core languages: HTML, CSS and Javascript. It is a website I created to train my skills in those languages and to learn more about the technologies of making beautiful websites. </p>
+                                    <p class="experience__description">A modern portfolio website I built using 3 core languages: HTML, CSS and Javascript. It is a website I created to train my skills and to learn more about the technologies of making beautiful websites. </p>
                                 </div>
                                     
                             </div>
@@ -220,53 +226,121 @@
                                 <div class="experience__data bd-grid">
                                     <h3 class="experience__title"><a href="https://github.com/anhtuandao1311/CampReview" target="_blank" class="experience__a">CAMPREVIEW WEBSITE</a> </h3>
                                     <span class="experience__company">July - September 2021 &nbsp;|&nbsp; Personal Project</span>
-                                    <p class="experience__description">A  small scale clone of Yelp where people can upload and share their thoughts on different campgrounds across the globe. It uses MongoDB as database, Express.js and its dependencies, as well as techniques of validation, error-handling and basic authentication and authorization.</p>
+                                    <p class="experience__description">A small scale clone of Yelp where people can upload and share their thoughts on campgrounds across the globe. It uses MongoDB as database, Express.js and its dependencies, as well as techniques of validation, error-handling and basic authentication and authorization.</p>
                                 </div>
                                     
                             </div>
                         </div>
                     </section>
 
+
+                    <!-- ========== SKILLS  ========== -->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        
+                        <div class="skills__container bd-grid">
+                            <h3 class="skills__title">Languages</h3>
+                            <div class="skills__content bd-grid">
+                                <ul class="skills__data">
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>HTML 
+                                    </li>
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>CSS
+                                    </li>
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>JS
+                                    </li>
+                                </ul>
+
+                                <ul class="skills__data">
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>Python
+                                    </li>
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>Markdown
+                                    </li>
+                                    
+                                </ul>
+                                               
+                            </div>
+
+                            <h3 class="skills__title">Libraries & Frameworks</h3>
+                            <div class="skills__content bd-grid">
+                                <ul class="skills__data">
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>Node.js
+                                    </li>
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>Express.js
+                                    </li>
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>Flask
+                                    </li>
+                                    
+                                </ul>
+
+                                <ul class="skills__data">
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>Passport
+                                    </li>
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>Multer
+                                    </li>
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>Mongoose
+                                    </li>
+                                    
+                                </ul>
+                                               
+                            </div>
+
+                            <h3 class="skills__title">Databases</h3>
+                            <div class="skills__content bd-grid">
+                                <ul class="skills__data">
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>PostgreSQL
+                                    </li>
+                                    
+                                    <li class="skills_name">
+                                        <span class="skills__circle"></span>MongoDB
+                                    </li>
+                                </ul>
+                                               
+                            </div>
+                        </div>
+                    </section>
+
+
                     <!--========== CERTIFICATES ==========-->
                     <section class="certificate section" id="certificates">
-                        
-                    </section>
+                        <h2 class="section-title">Certificates</h2>
 
-                    <!--========== REFERENCES ==========-->
-                    <section class="references section" id="references">
-                        
-                    </section>
-
-                    <!--========== LANGUAGES ==========-->
-                    <section class="languages section">
-                        
-                    </section>
-                    
-                    <!--========== INTERESTS ==========-->
-                    <section class="interests section">
-                        <h2 class="section-title">Interests</h2>
-
-                        <div class="interests__container bd-grid">
-                            <div class="interests__content">
-                                <i class="bx bx-headphone"></i>
-                                <span class="interest__name">Music</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class="bx bx-movie"></i>
-                            <span class="interest__name">Movies</span>
-                            </div>
-                            <div class="interests__content">
-                                <i class="bx bx-dumbbell"></i>
-                                <span class="interest__name">Fitness</span>
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title"><a href="https://bigocoding.com/khoa-hoc-dang-mo/khoa-hoc-blue/" class="certificate__a" target="_blank" >Big-O Coding Blue: Intermediate Algorithms</a></h3>
+                                <p class="certificate__description">
+                                    Certification for completing the Algorithms course with great results.
+                                </p>
                             </div>
 
+                            <div class="certificate__content">
+                                <h3 class="certificate__title"><a href="https://bigocoding.com/khoa-hoc-dang-mo/khoa-hoc-cp/" class="certificate__a" target="_blank" >Big-O Coding Competitive Programming</a></h3>
+                                <p class="certificate__description">
+                                    Certification for completing the Competitive Programming course with great results.
+                                </p>
+                            </div>
+                        </div>
                     </section>
+
                 </div>
             </div>        
         </main>
 
         <!--========== SCROLL TOP ==========-->
-        
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
 
         <!--========== HTML2PDF ==========-->
         <script src="assets/js/html2pdf.bundle.min.js"></script>
